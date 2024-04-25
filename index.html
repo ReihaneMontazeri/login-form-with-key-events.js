@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="login-page">
+        <div class="form">
+                <input type="text" placeholder="username" class="username" />
+                <span class="usernameWarning" style="display: hidden;"></span>
+                <input type="password" placeholder="password" class="password" />
+                <span class="passwordWarning" style="display: hidden;"></span>
+                <button onclick="dataValidation()">login</button>
+                <p class="message">Not registered? <a>Create an account</a></p>
+        </div>
+    </div>
+
+    <div class="modal" style="display: hidden;">
+        لطفا اطلاعات لازم را به درستی وارد کنید
+    </div>
+
+    <script src="js/scriptm.js"></script>
+
+</body>
+
+</html>
